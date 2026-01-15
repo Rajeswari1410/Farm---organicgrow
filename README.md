@@ -177,3 +177,111 @@ footer {
 }
 
 
+app.py (Backend Code)
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+# Home page
+@app.route('/')
+def home():
+    return render_template('index.html')
+
+# Crops page
+@app.route('/crops')
+def crops():
+    return render_template('crops.html')
+
+# Fertilizers page
+@app.route('/fertilizers')
+def fertilizers():
+    return render_template('fertilizers.html')
+
+# Pest control page
+@app.route('/pest-control')
+def pest_control():
+    return render_template('pest-control.html')
+
+if __name__ == "__main__":
+    app.run(debug=True)
+
+
+OrganicGrowApplication.java
+
+package com.organicgrow;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class OrganicGrowApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(OrganicGrowApplication.class, args);
+    }
+
+}
+
+
+package com.organicgrow.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class PageController {
+
+    @GetMapping("/")
+    public String home() {
+        return "index";   // renders index.html
+    }
+
+    @GetMapping("/crops")
+    public String crops() {
+        return "crops";   // renders crops.html
+    }
+
+    @GetMapping("/fertilizers")
+    public String fertilizers() {
+        return "fertilizers";  // renders fertilizers.html
+    }
+
+    @GetMapping("/pest-control")
+    public String pestControl() {
+        return "pest-control";  // renders pest-control.html
+    }
+
+}
+
+
+package com.organicgrow.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class PageController {
+
+    @GetMapping("/")
+    public String home() {
+        return "index";   // renders index.html
+    }
+
+    @GetMapping("/crops")
+    public String crops() {
+        return "crops";   // renders crops.html
+    }
+
+    @GetMapping("/fertilizers")
+    public String fertilizers() {
+        return "fertilizers";  // renders fertilizers.html
+    }
+
+    @GetMapping("/pest-control")
+    public String pestControl() {
+        return "pest-control";  // renders pest-control.html
+    }
+
+}
+
+
+
