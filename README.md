@@ -124,7 +124,56 @@ pest-control.html (Organic Pest Control Page)
     <p>Introduce beneficial insects like ladybugs.</p>
     <p>Use garlic-chili spray for pest management.</p>
 </section>
-
+if
 </body>
 </html>
+
+
+html>
+🎨 style.css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f3fff3;
+}
+
+header {
+    background-color: #2f8f2f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #4caf50;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero, .content {
+    padding: 40px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    background-color: #2f8f2f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 
