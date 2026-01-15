@@ -1,4 +1,4 @@
-
+if
 # OrganicGrow – Organic Farming Guide Platform
 
 ## Description
@@ -100,3 +100,31 @@ fertilizers.html (Organic Fertilizers Page)
 
 </body>
 </html>
+
+pest-control.html (Organic Pest Control Page)
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pest Control | OrganicGrow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Natural Pest Control</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="crops.html">Crops</a>
+</nav>
+
+<section class="content">
+    <p>Use neem oil spray to control insects.</p>
+    <p>Introduce beneficial insects like ladybugs.</p>
+    <p>Use garlic-chili spray for pest management.</p>
+</section>
+
+</body>
+</html>
+
