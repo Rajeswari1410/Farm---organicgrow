@@ -37,3 +37,66 @@ index.html (Home Page)
 
 </body>
 </html>
+
+crops.html (Crop Guide Page)
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crops | OrganicGrow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Organic Crop Guide</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="fertilizers.html">Organic Fertilizers</a>
+</nav>
+
+<section class="content">
+    <h2>Rice</h2>
+    <p>Use compost manure and green manure for healthy growth.</p>
+
+    <h2>Vegetables</h2>
+    <p>Apply vermicompost and natural pest control techniques.</p>
+
+    <h2>Fruits</h2>
+    <p>Maintain soil moisture and use neem-based sprays.</p>
+</section>
+
+</body>
+</html>
+
+fertilizers.html (Organic Fertilizers Page)
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Organic Fertilizers | OrganicGrow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Organic Fertilizers</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="pest-control.html">Pest Control</a>
+</nav>
+
+<section class="content">
+    <ul>
+        <li>Compost manure</li>
+        <li>Vermicompost</li>
+        <li>Green manure</li>
+        <li>Neem cake</li>
+        <li>Bio fertilizers</li>
+    </ul>
+</section>
+
+</body>
+</html>
